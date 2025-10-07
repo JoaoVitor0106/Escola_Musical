@@ -10,7 +10,7 @@ public class Violao extends Instrumentos {
 
     @Override
     public void tocar(){
-        System.out.println("Tocando notas suaves no " + super.getNome() + "com " + numeroCordas + "cordas...");
+        System.out.println("Tocando notas suaves no " + super.getNome() + " com " + numeroCordas + " cordas...");
         System.out.println("Dedilhando uma melodia romântica no violão");
     }
 
@@ -18,7 +18,7 @@ public class Violao extends Instrumentos {
     public  void afinar()
     {
         super.afinar();
-        System.out.println("Ajustando a tensão das " + numeroCordas + "cordas.");
+        System.out.println("Ajustando a tensão das " + numeroCordas + " cordas.");
     }
 
     @Override

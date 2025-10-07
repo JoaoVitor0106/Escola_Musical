@@ -12,7 +12,7 @@ public class Piano extends Instrumentos{
 
     @Override
     public void tocar(){
-        System.out.println("Soando uma bela melodia no " + super.getNome() + " com " + numeroTeclas + "Teclas...");
+        System.out.println("Soando uma bela melodia no " + super.getNome() + " com " + numeroTeclas + " Teclas...");
         System.out.println("Executando uma sonata clássica.");
     }
 
